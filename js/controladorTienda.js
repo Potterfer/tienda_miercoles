@@ -46,8 +46,28 @@ menuVar.textContent="Menu"
 
 //controlando una foto
 let etiquetaFoto = document.getElementById("fotoHp")
-etiquetaFoto.scr = "img/legoharrypotter.png"
+etiquetaFoto.scr = "/img/legoharrypotter.png"
 
 //Cambiar el estilo de la etiquieta
-etiquetaTitulo.classList.add(<"text-center")
-etiquetaTitulo.classList.add(<"text-danger")
+etiquetaTitulo.classList.add("text-center")
+etiquetaTitulo.classList.add("text-danger")
+
+//tienda
+let productosNombre=["libros","camiseta voldi"]
+let productosPrecio=[500000,90000]
+let productosPromocion=[true, false]
+
+console.log(productosNombre[1])
+
+//creando objetos de js [cajas-arreglo]{objetos}
+let usuario=
+{
+    nombre:"Bruno Mars", 
+    edad : 28,
+    amigos : ["hermione"," ronald","harry"]
+}
+
+console.log(usuario)
+console.log(usuario.nombre[1])
+
+
